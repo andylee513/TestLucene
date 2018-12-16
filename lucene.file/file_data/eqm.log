@@ -1,0 +1,30 @@
+2018-07-26 09:25:48,159 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==>  Preparing: SELECT count(0) FROM t_eqp_setting_eqp_type WHERE active = ? 
+2018-07-26 09:25:48,205 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==> Parameters: Y(String)
+2018-07-26 09:25:48,296 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>><==      Total: 1
+2018-07-26 09:25:48,299 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==>  Preparing: SELECT id, serial_id, type_code, type_name, type_desc, active, create_date, create_by, last_update_date, last_update_by from t_eqp_setting_eqp_type WHERE active = ? order by last_update_date desc LIMIT 10 
+2018-07-26 09:25:48,300 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==> Parameters: Y(String)
+2018-07-26 09:25:48,311 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_0]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>><==      Total: 10
+2018-07-26 09:26:00,554 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_1]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==>  Preparing: UPDATE t_eqp_setting_eqp_type SET type_code = ?, type_name = ?, type_desc = ?, last_update_date = ?, last_update_by = ?, serial_id = serial_id + 1 WHERE id = ? 
+2018-07-26 09:26:00,558 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_1]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==> Parameters: 1005(String), 机台0012(String), 这是机台001类型(String), 2018-07-26 09:26:00.55(Timestamp), Admin(String), 1001(Integer)
+2018-07-26 09:26:00,591 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_1]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>><==    Updates: 1
+2018-07-26 09:26:00,801 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==>  Preparing: SELECT count(0) FROM t_eqp_setting_eqp_type WHERE active = ? 
+2018-07-26 09:26:00,802 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==> Parameters: Y(String)
+2018-07-26 09:26:00,804 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>><==      Total: 1
+2018-07-26 09:26:00,805 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==>  Preparing: SELECT id, serial_id, type_code, type_name, type_desc, active, create_date, create_by, last_update_date, last_update_by from t_eqp_setting_eqp_type WHERE active = ? order by last_update_date desc LIMIT 10 
+2018-07-26 09:26:00,806 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>>==> Parameters: Y(String)
+2018-07-26 09:26:00,819 DEBUG [meu_invoke_83552801c241454ab495db3c706096ea_2]  Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+>><==      Total: 10

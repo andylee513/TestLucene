@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/food?useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: 123456
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+        
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 9999
+    
